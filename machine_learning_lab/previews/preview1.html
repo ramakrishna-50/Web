@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Machine Learning Lab</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <script>
+        function previewFile(filePath) {
+            document.getElementById('preview-frame').src = filePath;
+        }
+    </script>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Machine Learning Lab</strong></li>
+        </ul>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" role="button">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <hgroup>
+            <h2>Machine Learning Lab Files</h2>
+            
+        </hgroup>
+        <ul class="file-list">
+            <li>
+                <span>EXPERIMENT 1</span>
+        
+                <button onclick="location.href='../downloads/exp1.docx'">Download</button>
+            </li>
+            <li>
+                <span>EXPERIMENT 2</span>
+               
+                <button onclick="location.href='../downloads/exp2.docx'">Download</button>
+            </li>
+            <li>
+                <span>EXPERIMENT 3 AND 4</span>
+                <button onclick="location.href='../downloads/exp3and4.docx'">Download</button>
+            </li>
+        </ul>
+        <iframe id="preview-frame" src="" title="Preview"></iframe>
+    </main>
+
+
+</body>
+</html>
